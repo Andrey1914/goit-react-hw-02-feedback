@@ -1,0 +1,11 @@
+.text {
+  font-size: 18px;
+}
+
+.text:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.value {
+  margin-left: 5px;
+}
