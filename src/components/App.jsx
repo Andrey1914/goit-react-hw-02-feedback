@@ -13,8 +13,7 @@ export default class App extends Component {
     bad: 0,
   };
 
-  leaveFeedback = event => {
-    const type = event.target.textContent;
+  leaveFeedback = type => {
     this.setState(prevState => ({
       [type]: prevState[type] + 1,
     }));
